@@ -1,27 +1,30 @@
-const mongoose = require("mongoose");
+// const mongoose = require("mongoose");
+// require('dotenv').config();
 
-mongoose.connect(
-  "mongodb+srv://admin:admin@cluster0.5o9vq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
-);
+// const password = process.env.dbPassword
 
-const { Schema, model } = mongoose;
+// mongoose.connect(
+//   `mongodb+srv://admin:${password}@cluster0.5o9vq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`
+// );
 
-const taskSchema = new Schema({
-  title: {
-    type:String,
-    required:true
-  },
-  description: String,
-  completed: {
-    type:Boolean,
-    default:false
-  },
-  createdAt: {
-    type: Date,
-    default: ()=> Date.now()
-  },
-});
+// const { Schema, model } = mongoose;
 
-const taskModel = model("task", taskSchema);
+// const taskSchema = new Schema({
+//   title: {
+//     type:String,
+//     required:true
+//   },
+//   description: String,
+//   completed: {
+//     type:Boolean,
+//     default:false
+//   },
+//   createdAt: {
+//     type: Date,
+//     default: ()=> Date.now()
+//   },
+// });
 
-module.exports = taskModel;
+// const taskModel = model("task", taskSchema);
+
+// module.exports = taskModel;
