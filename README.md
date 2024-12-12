@@ -5,7 +5,7 @@ Ascendify Technologies MERN Assessment Task: Build a RESTful API using Express.j
 # how to setup app in local enviorment
 
 **Setup**
-* Afer cloning github and install all dependencies
+* After cloning this github repo and installing all dependencies
 
 
 1.  **Create `.env` File:**
