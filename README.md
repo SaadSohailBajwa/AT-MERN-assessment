@@ -2,6 +2,36 @@
 
 Ascendify Technologies MERN Assessment Task: Build a RESTful API using Express.js and MongoDB
 
+# how to setup app in local enviorment
+
+**Setup**
+* Afer cloning github and install all dependencies
+
+
+1.  **Create `.env` File:**
+
+    Create a `.env` file in the root of the project and add the following environment variables:
+
+    ```
+    dbPassword=admin
+    jwtSecret=1234566
+    ```
+
+2.  **Start the Server:**
+
+    Start the server using npm:
+
+    ```bash
+    npm start
+    ```
+
+3.  **Test the API:**
+
+    Test the API endpoints using the provided Postman workspace:
+
+    [https://www.postman.com/winter-desert-907752/workspace/mongodb-crud](https://www.postman.com/winter-desert-907752/workspace/mongodb-crud)
+
+***Examples***
 **1. Registration**
 
 *   **Method:** `POST`
