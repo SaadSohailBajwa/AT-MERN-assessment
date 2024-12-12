@@ -20,21 +20,21 @@ Ascendify Technologies MERN Assessment Task: Build a RESTful API using Express.j
 Response:
 user registered successfully
 Status: 201
-2. Login
+**2. Login**
 
-Request:
+* **Request:**
 
-HTTP
+    ```HTTP
 
-POST /auth/login HTTP/1.1
-Host: localhost:3000
-Content-Type: application/json
-Content-Length: 68
+    POST /auth/login HTTP/1.1
+    Host: localhost:3000
+    Content-Type: application/json
+    Content-Length: 68
 
-{
-    "email" : "test@example.com",
-    "password" : "12345678"
-}
+    {
+        "email" : "test@example.com",
+        "password" : "12345678"
+    }
 Response:
 
 "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoidGVzdEBleGFtcGxlLmNvbSIsImlhdCI6MTczMzk1OTg5NiwiZXhwIjoxNzMzOTYwNDk2fQ.6GN-mRemxd5lbKMismuQ4CkxXVUNdiRDC5UeSRAG26k" 
