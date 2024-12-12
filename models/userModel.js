@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 require("dotenv").config();
 
-// const password = process.env.dbPassword;
+
 const URI = require("../utils/URI");
 
 mongoose.connect(URI);
